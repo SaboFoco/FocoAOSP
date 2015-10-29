@@ -18,7 +18,7 @@
            sync-c="true"
            sync-j="4" />
 
-<!-- BEGIN Lantern ROM -->
+<!-- BEGIN Foco ROM -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -283,7 +283,7 @@
   <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
   <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
 <project name="legaCyMod/android_vendor_qcom_opensource_fm" path="vendor/qcom/opensource/fm" remote="github" />
-<!-- END Lantern ROM -->
+<!-- END Foco ROM -->
 
 <!-- BEGIN AOSP -->
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
